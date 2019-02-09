@@ -38,13 +38,30 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
+.centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
 .image-text {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 2.5rem;
-    max-width: 1020px;
-    margin: 0px auto;
-    padding: 0px 16px
+}
+
+.intro-text {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.single-service {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.single-service p {
+    padding: 0px 16px;
 }
